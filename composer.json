@@ -1,0 +1,35 @@
+{
+    "name": "omnibill/quickbooks",
+    "type": "library",
+    "description": "Reserved, not released yet: QuickBooks Online for omnisense/omnibill (journal-entries, contacts).",
+    "keywords": [
+        "omnibill",
+        "accounting",
+        "quickbooks",
+        "reserved"
+    ],
+    "homepage": "https://github.com/glitchr-omnisense/omnibill-quickbooks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnibill\\Quickbooks\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-1.x": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
